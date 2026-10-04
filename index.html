@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Manikandan B — Backend Engineer specializing in Java, Spring Boot, distributed systems, observability and AI-assisted engineering." />
+  <meta name="theme-color" content="#07110f" />
+  <title>Manikandan B — Backend Engineer</title>
+  <link rel="icon" href="assets/profile.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body data-active-section="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="system-bg" aria-hidden="true">
+    <canvas id="field"></canvas>
+    <div class="grid"></div>
+    <div class="ambient"></div>
+  </div>
+
+  <nav class="route-progress" aria-label="Section progress">
+    <span class="route-track"><span class="route-fill"></span></span>
+    <a href="#top" data-route="top" aria-label="Top"><span></span></a>
+    <a href="#about" data-route="about" aria-label="About"><span></span></a>
+    <a href="#experience" data-route="experience" aria-label="Experience"><span></span></a>
+    <a href="#work" data-route="work" aria-label="Work"><span></span></a>
+    <a href="#stack" data-route="stack" aria-label="Stack"><span></span></a>
+    <a href="#contact" data-route="contact" aria-label="Contact"><span></span></a>
+  </nav>
+
+  <header class="site-header" data-header>
+    <nav class="site-nav shell" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Manikandan B home">
+        <span class="brand-mark">MB</span>
+        <span class="brand-copy"><strong>Manikandan B</strong><small>Backend Engineer</small></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel" aria-label="Open navigation">
+        <span></span><span></span>
+      </button>
+
+      <div class="nav-panel" id="nav-panel">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#work">Work</a>
+        <a href="#stack">Stack</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="assets/Manikandan_B_Resume.pdf" download>Resume ↘</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero system-section" id="top" data-section="top">
+      <div class="hero-shell wide-shell">
+        <div class="hero-copy reveal">
+          <p class="signal-line"><span class="pulse"></span> MANIKANDAN B <span class="mono">PROFILE / 01</span></p>
+          <h1><span>Backend systems.</span><span class="accent">Built for production.</span></h1>
+          <p class="hero-lead">I design and build reliable backend platforms using Java, Spring Boot, distributed messaging, data systems, observability and AI-assisted engineering.</p>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#work">Explore my work <span>↓</span></a>
+            <a class="button secondary" href="https://github.com/manibg" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+          </div>
+
+          <div class="tech-modules" aria-label="Core technologies">
+            <button class="tech-module active" data-tech="java" aria-pressed="true"><span>01</span><strong>Java</strong><small>Core · JVM · Concurrency</small></button>
+            <button class="tech-module" data-tech="spring" aria-pressed="false"><span>02</span><strong>Spring Boot</strong><small>REST · JPA · Services</small></button>
+            <button class="tech-module" data-tech="messaging" aria-pressed="false"><span>03</span><strong>Messaging</strong><small>Kafka · RabbitMQ</small></button>
+            <button class="tech-module" data-tech="cloud" aria-pressed="false"><span>04</span><strong>Cloud & Ops</strong><small>K8s · Grafana · Splunk</small></button>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="portrait-card">
+            <div class="portrait-ring"></div>
+            <img src="assets/profile.png" alt="Portrait of Manikandan B" />
+            <div class="portrait-caption"><span class="status-dot"></span><span>Open to opportunities · Worldwide</span></div>
+          </div>
+
+          <div class="architecture-stage" data-active="spring" aria-label="Interactive backend flow">
+            <svg viewBox="0 0 620 420" class="circuit" aria-hidden="true">
+              <path class="circuit-path" d="M80 110H215V205H310V110H460" />
+              <path class="circuit-path" d="M310 205V315H165" />
+              <path class="circuit-path" d="M310 205V315H475" />
+              <circle class="packet packet-a" r="5" cx="80" cy="110" />
+              <circle class="packet packet-b" r="5" cx="310" cy="205" />
+            </svg>
+            <button class="node n-client" data-node="client"><b>00</b><strong>Client</strong><small>HTTP</small></button>
+            <button class="node n-api" data-node="api"><b>01</b><strong>REST API</strong><small>Validation</small></button>
+            <button class="node n-spring active" data-node="spring"><b>02</b><strong>Spring</strong><small>Business logic</small></button>
+            <button class="node n-kafka" data-node="kafka"><b>03</b><strong>Kafka</strong><small>Events</small></button>
+            <button class="node n-sql" data-node="sql"><b>04</b><strong>SQL</strong><small>Persistence</small></button>
+            <div class="console"><span data-console-index>02 / SPRING BOOT</span><strong data-console-text>Business logic & orchestration</strong></div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-cue">SCROLL <span></span></div>
+    </section>
+
+    <section class="impact-strip" aria-label="Selected impact">
+      <div class="shell impact-grid">
+        <article><strong>$12M</strong><span>annualized revenue initiative delivered to production</span></article>
+        <article><strong>89%</strong><span>reduction in investigation time with AI-assisted workflows</span></article>
+        <article><strong>150ms</strong><span>page path improved from 1.2 minutes</span></article>
+        <article><strong>&lt;200ms</strong><span>optimized REST API response time</span></article>
+      </div>
+    </section>
+
+    <section id="about" class="system-section section" data-section="about">
+      <div class="shell section-shell">
+        <div class="section-heading reveal"><p class="kicker"><span>01</span> Engineering profile</p><h2>Backend engineering<br>that survives reality.</h2></div>
+        <div class="about-layout">
+          <p class="about-lead reveal">My work sits where application design meets production reality: distributed services, business rules, messaging, database performance, incident analysis and systems that have to remain understandable under pressure.</p>
+          <div class="principles">
+            <article class="reveal"><span>01</span><h3>Design for failure</h3><p>Reliability, fallback paths, observability and ownership are part of the architecture.</p></article>
+            <article class="reveal"><span>02</span><h3>Make complexity visible</h3><p>Good backend design makes state, dependencies and operational behavior easy to reason about.</p></article>
+            <article class="reveal"><span>03</span><h3>Automate repeated thinking</h3><p>I use AI and tooling to shorten debugging loops and remove repetitive engineering work.</p></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="experience" class="system-section section" data-section="experience">
+      <div class="shell section-shell">
+        <div class="section-heading reveal"><p class="kicker"><span>02</span> Experience</p><h2>Enterprise systems.<br>Production ownership.</h2></div>
+        <div class="timeline">
+          <article class="timeline-row reveal"><div><span class="year">2023 — Present</span><strong>Walmart Global Tech India</strong></div><div><h3>Software Engineer III</h3><p>Own backend initiatives across requirements, solution design, implementation, validation, deployment and post-production support. Contribute to L3/SWAT incident response, database performance and AI-assisted engineering productivity.</p></div></article>
+          <article class="timeline-row reveal"><div><span class="year">2022 — 2023</span><strong>Schneider Electric</strong></div><div><h3>Senior Design Engineer</h3><p>Improved API and batch performance, introduced RabbitMQ-based asynchronous communication, and implemented distributed locking for safer concurrent processing.</p></div></article>
+          <article class="timeline-row reveal"><div><span class="year">2019 — 2022</span><strong>Revature</strong></div><div><h3>Software Engineer — Full Stack</h3><p>Worked across production support, caching, resilient integrations, REST API optimization and frontend performance improvements.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="system-section section" data-section="work">
+      <div class="shell section-shell">
+        <div class="section-heading reveal"><p class="kicker"><span>03</span> Selected work</p><h2>Engineering impact,<br>not just features.</h2></div>
+        <div class="project-grid">
+          <article class="project-card reveal"><div class="project-top"><span>01 / PLATFORM</span><span>JAVA · SPRING</span></div><h3>Large-scale returns systems</h3><p>End-to-end backend ownership across solution design, implementation, validation, rollout and production support for a high-volume e-commerce platform.</p><div class="chip-row"><span>Java</span><span>Spring Boot</span><span>SQL</span><span>Kubernetes</span></div></article>
+          <article class="project-card reveal"><div class="project-top"><span>02 / AI TOOLING</span><span>PRODUCTIVITY</span></div><h3>AI-assisted debugging workflows</h3><p>Built developer productivity tools that accelerated recurring code analysis and troubleshooting workflows.</p><div class="chip-row"><span>AI</span><span>Automation</span><span>Python</span></div></article>
+          <article class="project-card reveal"><div class="project-top"><span>03 / MESSAGING</span><span>ASYNC</span></div><h3>Event-driven communication</h3><p>Designed asynchronous communication with RabbitMQ and event-driven integration patterns to improve latency and resilience.</p><div class="chip-row"><span>Kafka</span><span>RabbitMQ</span><span>Resilience</span></div></article>
+          <article class="project-card reveal"><div class="project-top"><span>04 / PERFORMANCE</span><span>DATA</span></div><h3>Fast APIs & data paths</h3><p>Improved pagination, caching and backend data access paths to reduce latency and unnecessary database work.</p><div class="chip-row"><span>Redis</span><span>SQL Server</span><span>REST</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack" class="system-section section" data-section="stack">
+      <div class="shell section-shell">
+        <div class="section-heading split reveal"><div><p class="kicker"><span>04</span> Technology map</p><h2>My backend stack<br>as a system.</h2></div><p>Hover, focus or tap a domain. The map highlights how each capability connects to the application core.</p></div>
+
+        <div class="stack-map reveal" data-stack-map>
+          <div class="core-node"><small>APPLICATION CORE</small><strong>Java / Spring Boot</strong><span>JVM · REST · Services</span></div>
+          <div class="stack-lines" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          <button class="stack-card active" data-stack="core"><b>01</b><h3>Java / Core</h3><p>Java 21 · OOP · Collections · Concurrency · Data Structures</p></button>
+          <button class="stack-card" data-stack="spring"><b>02</b><h3>Spring / Backend</h3><p>Spring Boot · JPA · Hibernate · REST API · Spring Batch</p></button>
+          <button class="stack-card" data-stack="data"><b>03</b><h3>Data</h3><p>SQL Server · MySQL · Redis · Elasticsearch · Query tuning</p></button>
+          <button class="stack-card" data-stack="events"><b>04</b><h3>Messaging</h3><p>Kafka · RabbitMQ · Async flows · Event-driven systems</p></button>
+          <button class="stack-card" data-stack="infra"><b>05</b><h3>Infrastructure</h3><p>Docker · Kubernetes · Azure · AWS · GCP</p></button>
+          <button class="stack-card" data-stack="obs"><b>06</b><h3>Observability</h3><p>Grafana · Splunk · Logs · Metrics · Production debugging</p></button>
+          <button class="stack-card" data-stack="delivery"><b>07</b><h3>Build / Delivery</h3><p>Maven · Jenkins · GitHub · CI/CD · Release engineering</p></button>
+          <button class="stack-card" data-stack="testing"><b>08</b><h3>Testing</h3><p>JUnit · Mockito · Integration testing · Regression validation</p></button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="system-section contact" data-section="contact">
+      <div class="shell contact-shell reveal">
+        <p class="kicker"><span>05</span> Contact</p>
+        <h2>Let’s talk about<br>backend systems.</h2>
+        <p>Java, distributed systems, platform engineering, system design or AI-assisted developer tooling.</p>
+        <div class="contact-links">
+          <a href="mailto:manibala18898@gmail.com">Email ↗</a>
+          <a href="https://github.com/manibg" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/manikbala" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://manib.hashnode.dev" target="_blank" rel="noreferrer">Hashnode ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="shell"><span>© 2026 Manikandan B</span><span>Backend first · Production-minded</span></div></footer>
+</body>
+</html>
